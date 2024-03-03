@@ -1862,19 +1862,19 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.3.2)", "pytest-mock (>=3.12)"]
 
 [[package]]
 name = "pytest-flask"
-version = "1.2.0"
+version = "1.3.0"
 description = "A set of py.test fixtures to test Flask applications."
 optional = false
-python-versions = ">=3.5"
+python-versions = ">=3.7"
 files = [
-    {file = "pytest-flask-1.2.0.tar.gz", hash = "sha256:46fde652f77777bf02dc91205aec4ce20cdf2acbbbd66a918ab91f5c14693d3d"},
-    {file = "pytest_flask-1.2.0-py3-none-any.whl", hash = "sha256:fe25b39ad0db09c3d1fe728edecf97ced85e774c775db259a6d25f0270a4e7c9"},
+    {file = "pytest-flask-1.3.0.tar.gz", hash = "sha256:58be1c97b21ba3c4d47e0a7691eb41007748506c36bf51004f78df10691fa95e"},
+    {file = "pytest_flask-1.3.0-py3-none-any.whl", hash = "sha256:c0e36e6b0fddc3b91c4362661db83fa694d1feb91fa505475be6732b5bc8c253"},
 ]
 
 [package.dependencies]
 Flask = "*"
 pytest = ">=5.2"
-Werkzeug = ">=0.7"
+Werkzeug = "*"
 
 [package.extras]
 docs = ["Sphinx", "sphinx-rtd-theme"]
@@ -2538,4 +2538,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "0da483320771c423eb63ecb8b90b1b8d9dd516cb931f9972f8c7bb69b1ceb91b"
+content-hash = "df8348936b557c42b6596ea43759fc8a316f0bcbd735a5032cb10937a7be99d9"
